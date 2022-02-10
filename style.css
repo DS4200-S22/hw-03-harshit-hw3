@@ -1,0 +1,59 @@
+html {
+    font-family: Arial;
+}
+
+header{
+   text-align: center;
+    font-size: xxx-large;
+}
+
+.h2{
+    font-size: large;
+}
+
+
+.flex-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    padding: 50px;
+    margin: 40px;
+    text-align: center;
+
+
+    border: 15px solid black;
+
+}
+
+img{
+    height: max-content;
+    width: max-content;
+}
+
+.explanation{
+    font-size: small;
+    color: black;
+    padding: 10px;
+}
+
+svg{
+   display: inline-block;
+}
+
+.divsvg{
+    font-size: 0px;
+    text-align: center;
+    padding-left: 183px;
+}
+
+.svg:hover {
+    fill: orangered;
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
